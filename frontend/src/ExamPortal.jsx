@@ -28,7 +28,7 @@ const EXAM_QUESTIONS = [
 // Fixed demo student — swap out for real auth in production
 const DEMO_STUDENT = {
   id: "STU-2026-042",
-  name: "Arjun Mehta",
+  name: "Anand Tripathi",
 };
 
 const EXAM_DURATION_SECONDS = 30 * 60; // 30 minutes
