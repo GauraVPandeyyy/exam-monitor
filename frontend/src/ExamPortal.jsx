@@ -110,7 +110,7 @@ export default function ExamPortal() {
       setFlagCount((c) => c + 1);
       showToast(toastTitle, toastMessage, severity);
       try {
-        await fetch("http://localhost:5000/api/logs", {
+        await fetch("https://exam-monitor-api.onrender.com/api/logs", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

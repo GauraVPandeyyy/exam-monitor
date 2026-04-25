@@ -3,7 +3,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://exam-monitor-api.onrender.com/api || http://localhost:5000/api";
 const POLL_INTERVAL = 3000;
 
 // ─── Utilities ────────────────────────────────────────────────────────────────
